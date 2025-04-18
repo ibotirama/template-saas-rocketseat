@@ -4,7 +4,12 @@ export default async function Logout() {
 
   return (
     <form action={handleAuth}>
-      <button type="submit">Logout</button>
+      <button
+        type="submit"
+        className="border rouded-md px-2"
+        >
+          Logout
+        </button>
     </form>
   );
 } 

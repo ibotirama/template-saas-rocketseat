@@ -9,7 +9,7 @@ export default async function Dashboard() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="flex flex-col gap-10 items-center justify-center h-screen">
       <h1 className="text-4xl font-bold">Protected dashboard</h1>
       <h2>{session?.user?.email ? session.user.email : "Usuário não está logado!"}</h2>
       <Logout />
